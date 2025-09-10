@@ -1,0 +1,53 @@
+name: sms_forwarder
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  permission_handler: ^12.0.1
+  dio: ^5.9.0
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^9.2.4
+  pin_code_fields: ^8.0.1
+  mask_text_input_formatter: ^2.9.0
+  lottie: ^3.3.1
+  animate_do: ^4.2.0
+  get: ^4.7.2
+  flutter_launcher_icons: ^0.14.4
+  carousel_slider: ^5.1.1
+  dotted_border: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/SandyLoading.json
+    - assets/online-mentoring.json
+    - assets/optpassword.json
+    - assets/camera.json
+    - assets/img/posts/large/balance.png
+    - assets/img/posts/large/register.png
+    - assets/img/posts/large/status.png
+    - assets/img/posts/large/token.png
+    - assets/img/posts/large/tx_image.png
+    - assets/img/posts/large/res_image.png
+
+  fonts:
+    - family: Vazir
+      fonts:
+        - asset: assets/fonts/Vazir-Regular.ttf
