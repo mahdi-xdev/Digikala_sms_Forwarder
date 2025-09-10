@@ -1,0 +1,5 @@
+*.dart linguist-detectable=true
+*.java linguist-detectable=true
+*.html linguist-documentation=true
+*.md linguist-documentation=true
+/ScreenShots/* linguist-documentation=true
